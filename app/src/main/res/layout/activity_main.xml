@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sebastian" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#50152242"
+        android:backgroundTintMode="src_over">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:lineSpacingExtra="-10dp"
+                android:text="Welcome,\n Farmer!"
+                android:textColor="@color/white"
+                android:textSize="45dp"
+                app:fontFamily="@font/poppins_semibold" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Improve and start harvesting now!"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:fontFamily="@font/poppins" />
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/CustomCardViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#30000000">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="1"
+                    android:rowCount="3"
+                    android:useDefaultMargins="true">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/home_Information"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_marginBottom="15dp"
+                        android:backgroundTint="@color/black"
+                        app:cardCornerRadius="20dp">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:alpha="0.5"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/holdingfish2" />
+
+                        <TextView
+                            style="@style/mainMenuTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Information" />
+                        >
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/home_Management"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_marginBottom="15dp"
+                        android:backgroundTint="@color/black"
+                        app:cardCornerRadius="20dp">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:alpha="0.5"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/fisherman" />
+
+                        <TextView
+                            style="@style/mainMenuTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Management" />
+                        >
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/home_History"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:backgroundTint="@color/black"
+                        app:cardCornerRadius="20dp">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:alpha="0.5"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/harvesting" />
+
+                        <TextView
+                            style="@style/mainMenuTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="History" />
+                        >
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </GridLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

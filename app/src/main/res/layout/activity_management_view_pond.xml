@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="#90152242"
+        android:backgroundTintMode="src_over"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="20dp">
+
+            <GridLayout
+                android:id="@+id/pondLayout"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:columnCount="1"
+                android:rowCount="6"
+
+                android:useDefaultMargins="true">
+
+                <CheckBox
+                    android:id="@+id/pond1"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp" />
+
+                <CheckBox
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/pond2"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp" />
+
+                <CheckBox
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/pond3"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp" />
+
+                <CheckBox
+                    android:text="4"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/pond4"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp" />
+
+                <CheckBox
+                    android:text="5"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/pond5"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp" />
+
+                <CheckBox
+                    android:text="6"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/pond6"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp" />
+
+            </GridLayout>
+            <GridLayout
+                android:id="@+id/espGridA"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:columnCount="3"
+                android:rowCount="2"
+                android:visibility="gone"
+                android:useDefaultMargins="true">
+
+                <CheckBox
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/pondA1"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_rowSpan="2"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp" />
+
+                <CheckBox
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/pondA2"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp" />
+
+                <CheckBox
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/pondA3"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp" />
+
+                <CheckBox
+                    android:text="4"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/pondA4"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp" />
+
+                <CheckBox
+                    android:text="5"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/pondA5"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp" />
+
+                <CheckBox
+                    android:text="6"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/pondA6"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp"
+                    android:layout_columnSpan="3"
+                    android:visibility="gone"/>
+
+
+
+            </GridLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card"
+            style="@style/roundedTopCard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20"
+            android:backgroundTint="@color/white">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen5"
+                    android:layout_marginTop="@dimen/dimen20"
+                    android:layout_marginRight="@dimen/dimen5"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/dimen20">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/detailsDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="@dimen/dimen10"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Fish pond details"
+                        android:textAllCaps="true" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clipToPadding="false"
+                        app:cardCornerRadius="@dimen/dimen30"
+                        app:cardElevation="2dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/dimen40"
+                                android:layout_height="@dimen/dimen40"
+                                android:layout_marginLeft="@dimen/dimen20"
+                                android:src="@drawable/ic_baseline_place_24" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dimen20"
+                                android:layout_marginTop="@dimen/dimen10"
+                                android:layout_marginRight="@dimen/dimen20"
+                                android:layout_marginBottom="@dimen/dimen10"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    android:id="@+id/textPondName"
+                                    style="@style/viewDetailsText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lorem Ipsum ipsum" />
+
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    style="@style/viewDetailsName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Pond Name" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clipToPadding="false"
+                        app:cardCornerRadius="@dimen/dimen30"
+                        app:cardElevation="2dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/dimen40"
+                                android:layout_height="@dimen/dimen40"
+                                android:layout_marginLeft="@dimen/dimen20"
+                                android:src="@drawable/ic_outline_picture_in_picture_24" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dimen20"
+                                android:layout_marginTop="@dimen/dimen10"
+                                android:layout_marginRight="@dimen/dimen20"
+                                android:layout_marginBottom="@dimen/dimen10"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    android:id="@+id/textPondLayout"
+                                    style="@style/viewDetailsText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lorem Ipsum ipsum" />
+
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    style="@style/viewDetailsName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Pond layout" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clipToPadding="false"
+                        app:cardCornerRadius="@dimen/dimen30"
+                        app:cardElevation="2dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/dimen40"
+                                android:layout_height="@dimen/dimen40"
+                                android:layout_marginLeft="@dimen/dimen20"
+                                android:src="@drawable/ic_outline_date_range_24" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dimen20"
+                                android:layout_marginTop="@dimen/dimen10"
+                                android:layout_marginRight="@dimen/dimen20"
+                                android:layout_marginBottom="@dimen/dimen10"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    android:id="@+id/textPondDate"
+                                    style="@style/viewDetailsText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lorem Ipsum ipsum" />
+
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    style="@style/viewDetailsName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Date Created" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/sectionTitle"
+                        style="@style/detailsDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="@dimen/dimen10"
+                        android:layout_marginTop="@dimen/dimen30"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Section details"
+                        android:textAllCaps="true" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recylerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="650dp"
+                        android:layout_gravity="bottom" />
+                </LinearLayout>
+            </ScrollView>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+</RelativeLayout>

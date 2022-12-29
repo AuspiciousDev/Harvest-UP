@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".FishCaring">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/boxTitle"
+        style="@style/roundedBottomCard"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="@color/secondary_100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                style="@style/menuHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fish Care" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/boxTitle"
+        android:layout_marginTop="@dimen/dimen20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/dimen20"
+                android:layout_marginTop="@dimen/dimen50"
+                android:layout_marginRight="@dimen/dimen20"
+                android:layout_marginBottom="@dimen/dimen50"
+                android:columnCount="1"
+                android:rowCount="3"
+                android:useDefaultMargins="true">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/careBinhian"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen120"
+                    android:layout_columnWeight="1"
+                    android:backgroundTint="@color/primary"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/rounded_left_corner"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="@dimen/dimen100"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen10"
+                            android:backgroundTint="#00000000"
+                            app:cardCornerRadius="@dimen/dimen20">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/binhian" />
+                        </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen5"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/subMenuTextTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/title_Binhian" />
+
+                            <TextView
+                                style="@style/detailsSubMenuDescriptionWhite"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/descBinhianEng" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/carePalakihan"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen120"
+                    android:layout_columnWeight="1"
+                    android:backgroundTint="@color/primary"
+                    app:cardCornerRadius="@dimen/dimen20">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/rounded_left_corner"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="@dimen/dimen100"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen10"
+                            android:backgroundTint="#00000000"
+                            app:cardCornerRadius="@dimen/dimen20">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/palakihan" />
+                        </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen5"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/subMenuTextTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/title_Palakihan" />
+
+                            <TextView
+                                style="@style/detailsSubMenuDescriptionWhite"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/descPalakihanEng" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/careKawagan"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen120"
+                    android:layout_columnWeight="1"
+                    android:backgroundTint="@color/primary"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/rounded_left_corner"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="@dimen/dimen100"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen10"
+                            android:backgroundTint="#00000000"
+                            app:cardCornerRadius="@dimen/dimen20">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/kawagan" />
+                        </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen5"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/subMenuTextTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/title_Kawagan" />
+
+                            <TextView
+                                style="@style/detailsSubMenuDescriptionWhite"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/descKawaganEng" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

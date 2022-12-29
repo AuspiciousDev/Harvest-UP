@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#90152242"
+        android:backgroundTintMode="src_over"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/roundedBottomCard"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/secondary_100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textFishPondName"
+                    style="@style/smallMenuTextTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textAlignment="center" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/smallMenuTextTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fishpond"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="20dp">
+
+            <GridLayout
+                android:id="@+id/pondLayout"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:columnCount="1"
+                android:rowCount="6"
+
+                android:useDefaultMargins="true">
+
+                <CheckBox
+                    android:id="@+id/pond1"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:fontFamily="@font/poppins_medium"
+                    android:padding="5dp"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/pond2"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/pond3"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/pond4"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp"
+                    android:text="4"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/pond5"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp"
+                    android:text="5"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/pond6"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp"
+                    android:text="6"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/espGridA"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:columnCount="3"
+                android:rowCount="2"
+                android:useDefaultMargins="true"
+                android:visibility="gone">
+
+                <CheckBox
+                    android:id="@+id/pondA1"
+                    android:layout_rowSpan="2"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/pondA2"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/pondA3"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/pondA4"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp"
+                    android:text="4"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/pondA5"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp"
+                    android:text="5"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/pondA6"
+                    android:layout_rowWeight="1"
+                    android:layout_columnSpan="3"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:background="@drawable/pond_background"
+                    android:button="@drawable/pond_background"
+                    android:padding="5dp"
+                    android:text="6"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
+
+
+            </GridLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/secondary_100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/dimen50">
+
+                <TextView
+                    android:id="@+id/textSectionDetailsHeader"
+                    style="@style/detailsDescriptionWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Section details" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen60"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen10"
+                    android:elevation="@dimen/dimen10"
+                    app:cardCornerRadius="@dimen/dimen20">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/textPondSize"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/dimen5"
+                        android:backgroundTint="@color/white"
+                        android:hint="Fish pond size"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        app:placeholderText="Size in hectares" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen10"
+                    android:elevation="@dimen/dimen10"
+                    app:cardCornerRadius="@dimen/dimen20">
+
+                    <Spinner
+                        android:id="@+id/spinnerCare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen10"
+                    android:elevation="@dimen/dimen10"
+                    app:cardCornerRadius="@dimen/dimen20">
+
+                    <Spinner
+                        android:id="@+id/spinnerFishType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
+                </androidx.cardview.widget.CardView>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonSubmit"
+                    style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="@color/secondary"
+                    android:text="Update"
+                    android:textColor="@color/white"
+                    android:textSize="10pt" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonDelete"
+                    style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="@color/red"
+                    android:text="Delete"
+                    android:textColor="@color/white"
+                    android:textSize="10pt" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/image_view_pond"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:src="@drawable/pondwhole" />
+
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@id/image_view_pond"
+android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@id/image_view_pond"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="Layout 1"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</RelativeLayout>

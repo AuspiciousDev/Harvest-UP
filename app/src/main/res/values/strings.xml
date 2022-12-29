@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Harvest Up</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_Management">Management</string>
+    <string name="menu_Information">Information</string>
+    <string name="menu_History">History</string>
+
+    <string name="title_bangus">Bangus</string>
+    <string name="title_plapa">Pla-Pla</string>
+    <string name="title_apahap">Apahap</string>
+    <string name="title_talangka">Talangka</string>
+    <string name="title_alimango">Alimango</string>
+    <string name="title_sugpo">Sugpo</string>
+    <string name="title_vannamei">Vannamei</string>
+
+    <string name="title_feeds">Feeds</string>
+    <string name="title_noodles">Noodles</string>
+    <string name="title_jako">Jako</string>
+    <string name="title_sulib">Sulib</string>
+    <string name="title_waffer">Waffer</string>
+
+    <string name="title_Binhian">Binhian</string>
+    <string name="title_Kawagan">Kawagan</string>
+    <string name="title_Palakihan">Palakihan</string>
+
+    <string name="title_Bintol">Bintol</string>
+    <string name="title_Dala">Dala</string>
+    <string name="title_Lambat">Lambat</string>
+    <string name="title_Paktang">Paktang</string>
+    <string name="title_Panti">Panti</string>
+
+
+    <string name="descBangusEng">Milkfish (Bangus) is a type of fish that is usually poured or placed in the fishpond because it grows quickly compared to other fish. Most of the people who fish, what they usually replace or put in their fishing is Bangus because you can be sure of your income from it.
+        \n \n In the 1 hectare size of the fishpond, you cannot put more than 6,000 bangus because if it is too much there is a possibility that it will not grow or the rest of it will die.
+        \n \n Reminder : When the months of April and May arrive, you should first catch other pets or reduce the contents of your plaisdaan because the months of April and May are when fish die.
+        \n \n  Food : Wafer, Biscuit, Noodles and Feeds.
+        \n \n Wafers, biscuits and crushed noodles will be fed when the bangus are still small. When its a bit big, it can be fed with feed. Its only fed in the morning and afternoon every day.
+        \n \n How many days of caring it before Harvesting?
+        \n In the Nursery : 3 weeks
+        \n In the Hatchery : 1 month
+        \n In the Growout : 4 months
+        \n tools to be used in the harvesting : Panti or net
+    </string>
+    <string name="descPlaPlaEng">PlaPla is a type of tilapia but it is bigger compared to normal tilapia. It is often kept in fisheries because it lives in salt water but can also live in brackish water. It reaches a size of eight or ten inches or more.
+        \n \n In the 1 hectare size of the fishpond, you cant put more than 50,000 Pla-pla in it because if it is too much there is a possibility that it wont grow or the rest of it will die.
+        \n \n Reminder : When the months of April and May arrive, you should first catch other pets or reduce the contents of your fishpond because the months of April and May are when fish die.
+    \n \n  Food : Waffer at Feeds.
+        \n \n Crushed wafers are fed when the tilapia are still small. When it has grown for a month, it can be fed with feed. It is only fed in the morning and afternoon every day.
+        \n\n How many days of caring it before Harvesting?
+        \n In the Hatchery : 2 weeks
+        \n In The Nursery : 1 month
+        \n In the Growout : 4 months
+        \n Tools use for Harvesting : Panti o lambat
+    </string>
+    <string name="descApahapEng">Apahap is a fish with white skin. It is often kept in fisheries because it lives in salt water and sea water. This fish grows bigger and bigger if it is cared for during the day, but when it is too big, it will be difficult to buy it because the taste of its flesh will be different.
+        \n \n In the 1 hectare size of the fishpond, you cant put more than 10,000 apahap in it because if it is too much there is a possibility that it wont grow or it will eat its fellow fish because of the crowded area.
+        \n \n Reminder : When the months of April and May arrive, you should first catch other pets or reduce the contents of your fishpond because the months of April and May are when fish die.
+        \n \n Food : waffer , feeds at sulib
+        \n \n Crushed wafers will be fed when the apahap are still small. When it is quite big, it can be fed with feeds and subs. It is only fed in the morning and afternoon every day.
+        \n \n In the Hatchery : 2 Linggo
+        \n In the Nursery: 1 buwan
+        \n In the Growout : 4 buwan
+        \nTools that use for harvesting : Panti o lambat
+    </string>
+    <string name="descTalangkaEng">The talangka resembles a crab but it is small. The talangka lives in salt water. It is also called katang. Talangka is one of the most delicious seafood because of its fat or called aligi. Talanka is the most popular especially for making buro or crab paste.
+    \n \n  There are only a few people who buy or drop talangka because it is cheap. So those who are left with talangka buds are used in their business of fermentation and so on.
+    \n \n In the 1 hectare size of the fishpond, you cant put more than 100,000 Talangka here because if it is too much there is a possibility that it wont grow or the rest of it will die due to overcrowding.
+        \n \n Reminder : When the months of April and May arrive, you should first catch other pets or reduce the contents of your fishpond because the months of April and May are when fish die.
+        \n \n  Food : Jako, sulib at lumot .
+        \n \n Like the crab, the jako, silib and moss can be fed at the same time or even mixed together. Feeding the talangka is every day even if it is still small. When it has grown for two months it can be fed twice a day.
+       \n \n How many days of caring it before Harvesting?
+        \n In the Hatchery : 2 weeks
+        \n In the Nursery : 1 month
+        \n In the Growout : 4 months
+        \n Tools use for Harvesting : bintol o lambat
+
+</string>
+    <string name="descAlimangoEng">The crab is raised in water that can be a mixture of brackish water and salt water but can also be in pure salt water. You can also take care of crabs and milkfish at the same time, but not crabs and prawns because the crabs will eat the prawns when the water starts to shrink and they are side by side.
+        \n \n It is also one of the main crops that are harvested or harvested by farmers because when the harvest is good, they can make a lot of money from it.
+        \n \n In the 1 hectare size of the fishpond, you cannot put more than 6,000 crabs in it because if it is too much there is a possibility that it will not grow or the rest of it will die.
+        \n \n It is also one of the main crops that are harvested or harvested by farmers because when the harvest is good, they can make a lot of money from it.
+</string>
+    <string name="descSugpoEng"> A shrimp is a type of decapoda with ten legs. Compared to shrimp, it is larger and is usually raised in fisheries because it grows quickly in the fisheries. It is also called tiger shrimp in English. It is also one of the main ones bought or dropped in the street because its price is very high and you will really earn a lot if the harvest is good.
+              \n \n In the 1 hectare size of the fishpond, you cannot put more than 50,000 shrimp because if it is too much there is a possibility that it will not grow or the rest of it will die.
+             \n \n
+    Reminder : When the months of April and May arrive, you should first catch other pets or reduce the contents of your fishpond because the months of April and May are when fish die.
+             \n \n Food : Jako, Sulib.
+            \n \n Jako and subil can be fed at the same time or even mixed together. Feeding the crab is only three times a week when it is small. When it has grown two months, it can be fed every day.
+             \n \n How many days of caring it before Harvesting?
+            \n In the Hatchery : 2 weeks
+        \n In the Nursery : 1 month
+        \n In the Growout : 4 months
+        \n Tools use for Harvesting : lambat o paktang</string>
+    <string name="descVannameiEng">The Vannamei or better known as the White Leg Shrimp is a type of decapod that is often kept in fisheries because it lives in salt water mixed with brackish water. Compared to shrimp, it does not have the so-called tiger stripes and its price is cheaper than shrimp, but there is a greater chance that the harvest will be stronger here than shrimp.
+                \n \n In 1 hectare of fishpond, you cannot put more than 50,000 bangus because if it is too much there is a possibility that it will not grow or the rest of it will die.
+        \n \n Reminder : When the months of April and May arrive, you should first catch other pets or reduce the contents of your fishpond because the months of April and May are when fish die.
+        \n \n Food : sulib at Jako.
+        \n \n Jako and subil can be fed at the same time or even mixed together. Feeding the crab is only three times a week when it is small. When it has grown two months, it can be fed every day.
+        \n \n How many days of caring it before Harvesting?
+        \n In the Hatchery : 2 weeks
+        \n In the Nursery : 1 month
+        \n In the Growout : 4 months
+        \n \n Tools use for Harvesting : lambat o dala
+    </string>
+    <string name="descFeedsEng"> Feeds are one of the main foods of fish. Feeds are made of mixed ingredients with nutrients that help grow fish. Feeds are more expensive if you compare them to other fish feeds, but they are stronger and have a better effect on the fish.
+               \n \n The feeding of feeds is done with the selection of fish so that they dont go to waste because you cant feed all the fish in the fishpond with feeds.
+               \n \n Type of fish on the fishpond that can be fed with Feeds :
+               \n Bangus
+               \n Apahap
+               \n Pla-pla
+               </string>
+    <string name="descNoodlesEng">Noodles is one of the main fish food in fishpond. The noodles are made from a mixture of ingredients with nutrients that help grow fish. Noodles are cheaper compared to other fish food, but they are stronger and have a better effect on the fish when the fish are still small.
+              \n \n The feeding of noodles is done with the selection of fish so that they dont go to waste because not all the fish in the fishpond can be fed with noodles."
+              \n \n Kind of fish on the fishpond that can be fed with Noodles :
+              \n Bangus
+              \n Apahap
+              \n Pla-pla
+
+    </string>
+    <string name="descJakoEng">Jako is one of the main food of fish in the fishpond especially crab. The jaco is made of small fish that help raise the fish. Jako is more expensive when compared to noodles and wafers because it is stronger and has a better effect on fish.
+             \n \n The feeding of the Jako is done with the selection of fish so that they dont go to waste because not all the fish in the fishpond can be fed to the Jako.
+             \n \n Type of fish on the fishpond that can be fed by Jako:
+             \n Alimango
+             \n Sugpo
+             \n Vannamei
+    </string>
+    <string name="descSulibEng">Sulib is one of the main food of fish in the fishpond especially shrimp. Subil is made of small breasts that are caught in the sea that help raise fish. Subib has a more expensive price if you compare to subib, wafers and noodles because it is hard to get from the sea.
+    \n \n The feeding of sulib is done with the selection of fish so that they dont go to waste because not all fish in the fishpond can be fed with sulib.
+    \n \n Type of fish in the fishpond that can be fed by Sulib:
+    \n Alimango
+    \n Sugpo
+    \n Vannamei
+    </string>
+    <string name="descWafferEng">Wafer is one of the main food of fish in the fishpond, especially the seed fish. Waffer is made of thin bread that melts quickly which helps to raise fish. Waffer is expensive if you compare it to noodles because it is stronger and has a better effect on the fish.
+                \n \n Waffer feeding is done with a selection of fish so that they dont go to waste because not all fish in the fishpond can be fed with wafers."
+                \n \n Type of fish on the fishpond that Waffer can feed :
+                \n Bangus
+                \n Apahap
+                \n Pla-pla
+
+    </string>
+    <string name="descBinhianEng">
+      Binhian or called in English as Nursery care is a type of fish care in the fishpond where the fish from Kawagan (Hatchery care) are placed here to grow until they reach 5 inches in size so that they can be transferred to the Growout care.
+        \n \n In Nursery, you can raise any kind of fish here, but you can only raise one type of fish in the fishpond because they are not allowed to mix because each size of the fishpond has an appropriate number of fish
+        \n \n Type of fish and correct total according to 1 hectare size of fishpond :
+        \n Bangus = 300,000 pcs
+        \n Sugpo = 2,500,000 pcs
+        \n Pla-pla = 2,500,000 pcs
+        \n Talangka = 5,000,000 pcs
+        \n Vannamei = 2,500,000 pcs
+        \n Alimango = 300,000 pcs
+        \n Apahap = 500,000 pcs
+        \n \n When the fish from the nursery has reached the right size, it will be transferred to the big one to grow even more and so that the fleshy fish can be loosened in the cage.
+        \n
+    </string>
+    <string name="descKawaganEng">Kawagan or called in English Hatchery care is a type of fish care in the fishpond where newborn fish are placed here and they are formed or grown up to 3 centimeters in size.
+    \n \n Basically, you can take care of any fish here, but you can only take care of one type of fish in the fishpond because they are not allowed to mix because each size of the fishpond has an appropriate number of fish
+    \n \n Type of fish and correct number according to 1 hectare size of fishpond:
+    \n Bangus = 480,000 pcs
+    \n Sugpo = 4,000,000 pc
+    \n Pla-pla = 4,000,000 pcs
+    \n Talangka = 8,000,000 pcs
+    \n Vannamei = 4,000,000 pcs
+    \n Alimango = 480,000 pcs
+    \n Apahap = 800,000 pcs
+    \n \n When the fish from the hatchery has reached the right size, it will be transferred to the nursery to grow even more and so that the fleshy fish in the hatchery can be loosened.
+    \n \n However, hatchery has limited breeding days to avoid fish deaths due to tight spaces. The raising of fish takes only two to three weeks due to the limited space of the fishpond.
+
+    </string>
+    <string name="descPalakihanEng"> Growout care is a type of fish care in the fishpond where the fish from the nursery are placed here and will be cared for for 4 months before harvesting.
+        \n \n In the Growout, You can keep any fish here but you can only keep up to two types of fish in the fishpond because they are not allowed to mix because each size of the playground has an appropriate number of fish
+        \n \n Type of fish and total number according to 1 hectare size of plaisdaan:
+        \n Bangus = 6,000 pcs
+        \n Sugpo = 50,000 pcs
+        \n Pla-pla = 50,000 pcs
+        \n Talangka = 100,000 pcs
+        \n Vannamei = 50,000 pcs
+        \n Apahap = 10,000 pcs
+        \n \n  When the fish from the farm has reached the correct size, it should be reduced to make it bigger and also to loosen the flesh of the fish in the farm.
+        \n \n However, the Growout has limited rearing days to avoid fish deaths due to cramped spaces. The fish farm only takes four to five months of care due to the limited space of the fishpond.
+    </string>
+    <string name="descBintolEng">Harvesting fish with a bintol is one of the most effective and basic tools used by fishermen to catch crab on the beach because it can be caught quickly and above all, the hooking process is easy if you compare it to others."
+                 \n \n The Bintol is made of wood that is curved and surrounded by a net where it is thrown on the fishpond and after a few hours it can be lifted to catch the crab."
+                \n \n Here is a sample video Harvesting fish on the fishpond using Bintol.
+    </string>
+    <string name="descDalaEng">Harvesting fish with a Dala is one of the most effective and basic tools of fishermen on the fishpond because it can catch fish quickly but it is only used when you want to reduce the fish in the beach a little because it only catches a little if you compare in netting."
+    \n \n  The Dala is made of a long net with a width of 2 feet and a height of 3 meters with a long rope at one end and a stone at the other end."
+    \n \n  Here is a sample video Harvesting fish on the fishpond using Dala.
+    </string>
+    <string name="descLambatEng">Harvesting fish with nets is one of the most effective and basic tools for beach fishermen because it can catch fish quickly and above all, it can hold a lot of fish if you compare it to other tools."
+        \n \n The net is made of strong plastic thread with holes to allow water to penetrate and an iron weight on the bottom to prevent the net from lifting."
+
+    </string>
+    <string name="descLambatEng2">Nets are devices made from fibers woven in a grid-like structure. Some fishing nets are also called fish traps, for example fyke nets. Fishing nets are usually meshes formed by knotting a relatively thin thread. Early nets were woven from grasses, flaxes and other fibrous plant material. Later cotton was used.
+    \n \n Modern nets are usually made of artificial polyamides like nylon, although nets of organic polyamides such as wool or silk thread were common until recently and are still used.</string>
+    <string name="descPaktangEng">Harvesting fish using a Paktang is one of the most effective and basic tools used by fishermen on the beach, but the use of a hook on the beach has a specific time or usually you can only use it at night because the water in the fishpond usually decreases at night."
+        \n \n The Paktang is made of iron screen and it is square shaped and has a door where the fish will enter through the door of the paktang to be caught because it cannot come out when it enters."
+        \n \n Here is a sample video Harvesting fish in the fishpond using Paktang. </string>
+    <string name="descPantiEng"> Harvesting fish Using panti is also one of the most effective and basic tools of fishermen in the fishpond because it can catch fish quickly but harvesting using panti is laborious because the fish must be taken one by one when it is caught in panti."
+        \n \n Harvesting fish using panti is also one of the most effective and basic tools of fishermen in the fishpond because it can catch fish quickly but harvesting using panti is laborious because the fish must be taken one by one when it is caught in panti."
+        \n \n Here is a sample video Harvesting fish on the fishpond using Panty.</string>
+
+
+    <string name="descBangusTag"> Ang bangus isang uri ng isda na kadalasan binubuhos o nilalagay sa plaisdaan sapagkat mabilis itong lumaki kumpara sa ibang isda. Karamihan sa mga taong namamalaisdaan ay ang kadalasan nilang binubulos o nilalagay sa kanilang palaisdaan ay Bangus sapagkat masisiguro ang kikitain mo dito.
+        \n \n Sa 1 hektarya na sukat ng plaisdaan , hindi tataas ng 6,000 na bangus ang malalagay mo dito dahil kung ito ay sumobra may posibilidad na hindi ito lumaki o kaya mamatay ang iba nito.
+        \n \n Paalala : Kapag sumapit na ang buwan ng Abril at Mayo ay dapat munang hulihin ang ibang alaga o bawasan ang laman ng iyong plaisdaan dahil ang buwan ng abril at mayo ay panahon na nagkakamatay ang mga isda.
+        \n \n Pagkain : Waffer, Biscuit , Noodles at Feeds.
+        \n \n Waffer,biscuit at noodles na durog ang ipapakain kapag ang bangus ay maliit pa. Kapag naman ito ay medyo malaki na pwede na itong pakainin ng feed.Umaga at hapon lamang ang pakain neto kada araw.
+        \n \n Ilang araw ito aalagaan bago anihin?
+        \n Kapag sa Kawagan : 3 Linggo
+        \n Kapag sa Binhian : 1 buwan
+        \n Kapag sa Palakihan : 4 buwan
+        \n Gamit na gagamitin sa Panghuli : Panti o lambat
+  </string>
+    <string name="descPlaPlaTag">Ang PlaPla ay isang uri ng tilapia ngunit ito ay mas malaki kumpara sa normal na tilapia. Kadalasan itong inaalagaan sa palaisdaan dahil ito ay nabubuhay sa tubig alat pero pwede din sa tubig tabang. Ito ay umaabot sa laki na walo o sampung pulgada o higit pa.
+    \n \n Sa 1 hektarya na sukat ng plaisdaan , hindi tataas ng 50,000 na Pla-pla ang malalagay mo dito dahil kung ito ay sumobra may posibilidad na hindi ito lumaki o kaya mamatay ang iba nito.
+    \n \n Paalala : Kapag sumapit na ang buwan ng Abril at Mayo ay dapat munang hulihin ang ibang alaga o bawasan ang laman ng iyong plaisdaan dahil ang buwan ng abril at mayo ay panahon na nagkakamatay ang mga isda.
+    \n \n Pagkain : Waffer at Feeds.
+        \n \n Waffer na durog ang ipapakain kapag ang tilapia ay maliit pa. Kapag naman ito ay lumaki na ng isang buwan na pwede na itong pakainin ng feed.Umaga at hapon lamang ang pakain neto kada araw.
+        \n \n Ilang araw ito aalagaan bago anihin?
+        \n Kapag sa Kawagan : 2 Linggo
+        \n Kapag sa Binhian : 1 buwan
+        \n Kapag sa Palakihan : 4 buwan
+        \n Gamit na gagamitin sa Panghuli : Panti o lambat
+    </string>
+    <string name="descApahapTag"> Ang Apahap ay isang isda na may kulay puting balat. Kadalasan itong inaalagaan sa mga palaisdaan dahil ito ay nabubuhay sa tubig alat at tubig dagat. Ang isdang ito ay lumalaki ng lumalaki base kung ilaw araw ito inaalagaan subalit kapag ito ay sobrang laki na, ito ay mahihirapan ng bilhin dahil maiiba na ang lasa ng laman nito.
+    \n \n Sa 1 hektarya na sukat ng plaisdaan , hindi tataas ng 10,000 na apahap ang malalagay mo dito dahil kung ito ay sumobra may posibilidad na hindi ito lumaki o kaya kainin nito ang kapwa isda nito dahil sa masikip na lugar.
+    \n \n Paalala : Kapag sumapit na ang buwan ng Abril at Mayo ay dapat munang hulihin ang ibang alaga o bawasan ang laman ng iyong plaisdaan dahil ang buwan ng abril at mayo ay panahon na nagkakamatay ang mga isda.
+    \n \n Pagkain : waffer , feeds at sulib
+        n \n  Waffer na durog ang ipapakain kapag ang bangus ay maliit pa. Kapag naman ito ay medyo malaki na pwede na itong pakainin ng feeds at sulib .Umaga at hapon lamang ang pakain neto kada araw.
+        \n \n
+        Ilang araw ito aalagaan bago anihin?
+        \n Kapag sa Kawagan : 2 Linggo
+        \n Kapag sa Binhian : 1 buwan
+        \n Kapag sa Palakihan : 4 buwan
+        \n Gamit na gagamitin sa Panghuli : Panti o lambat
+    </string>
+    <string name="descTalangkaTag">Ang talangka ay kahawig ng alimango ngunit ito ay maliliit.Ang Talangka ay nabubuhay sa tubig alat. Tinatawag din itong “katang”.Ang talangka ay isa sa pinaka masarap na pagkaing dagat dahil sa taba nito o tinatawag na aligi. Talangka ang pinakasikat lalo sa pag gawa ng buro o crab paste.
+    \n \n Iilan lang ang mga namamalaisdaan ang nag bubulos o naghuhulog ng talangka dahil ito ay mura. Kaya ang mga namamalaisdaan na may mga bulos na talangka ay ginagamit sa kanilang negosyo sa pag buburo at iba pa."
+    \n \n Sa 1 hektarya na sukat ng plaisdaan , hindi tataas ng 100,000 na Talangka ang malalagay mo dito dahil kung ito ay sumobra may posibilidad na hindi ito lumaki o kaya mamatay ang iba nito dahil sa kasikipan."
+    \n \n Paalala : Kapag sumapit na ang buwan ng Abril at Mayo ay dapat munang hulihin ang ibang alaga o bawasan ang laman ng iyong plaisdaan dahil ang buwan ng abril at mayo ay panahon na nagkakamatay ang mga isda. "
+    \n \n Pagkain : Jako, sulib at lumot .
+    \n \n Kagaya ng alimango, Ang Jako, sulib at lumot ay pwedeng ipakain sabay sabay o kahit magkakahalo.Ang pagpapakain sa talangka ay araw araw kahit ito ay maliit pa. Kapag ito ay lumaki na ng dalawang buwan ay maaari na itong pakainin dalawang beses sa isang araw.."
+    \n \n Ilang araw ito aalagaan bago anihin?
+    \n Kapag sa Kawagan : 2 Linggo
+    \n Kapag sa Binhian : 1 buwan
+    \n Kapag sa Palakihan : 4 buwan
+    \n Gamit na gagamitin sa Panghuli : bintol o lambat
+    </string>
+    <string name="descAlimangoTag">
+        Ang alimango ay pinapalaki sa tubig na maaaring pinaghalong tubig tabang at  tubig na maalat pero pwede rin sa purong tubig alat. Maaari din pagsabayin na mag alaga ng alimango at bangus , ngunit hindi alimango at sugpo dahil kakainin ng mga alimango ang sugpo kapag nagsimulang lumiit ang tubig at nagkatabi tabi ito
+        \n \n   Isa rin ito sa pangunahing binubulos o hinuhulog ng mga namamalaisdaan dahil kapag maganda ang ani ay malaki ang kikitain dito.
+   \n \n  Sa 1 hektarya na sukat ng plaisdaan , hindi tataas ng 6,000 na alimango ang malalagay mo dito dahil kung ito ay sumobra may posibilidad na hindi ito lumaki o kaya mamatay ang iba nito.
+    \n \n Paalala : Kapag sumapit na ang buwan ng Abril at Mayo ay dapat munang hulihin ang ibang alaga o bawasan ang laman ng iyong plaisdaan dahil ang buwan ng abril at mayo ay panahon na nagkakamatay ang mga isda.
+   \n \n  Pagkain : Jako , Sulib .
+    \n \n Ang Jako at sulib ay pwedeng ipakain sabay sabay o kahit magkakahalo. Ang pagpapakain sa alimango ay tatlong beses lamang sa isang linggo kapag ito ay maliit pa. Kapag ito ay lumaki na ng dalawang buwan ay maaari na itong pakain araw araw.
+\n \n Ilang araw ito aalagaan bago anihin?
+\n Kapag sa Kawagan : 2 Linggo
+\n Kapag sa Binhian : 1 buwan
+\n Kapag sa Palakihan : 4 buwan
+\n Gamit na gagamitin sa Panghuli : Panti o  bintol
+    </string>
+    <string name="descSugpoTag">Ang sugpo ay isang uri ng decapoda na may sampung mga paa. Kumpara sa hipon, ito ay mas malaki at karaniwang inaalagaan sa palaisdaan dahil mabilis ito lumaki kapag nasa plaisdaan. Tinatawag din itong “tiger shrimp” sa ingles. Isa rin ito sa mga pangunahing binubulos o hinuhulog sa plaisdaan dahil napakalaki ng presyo nito at kikita ka talaga ng malaki kapag maganda ang ani dito .
+               \n \n Sa 1 hektarya na sukat ng plaisdaan , hindi tataas ng 50,000 na sugpo ang malalagay mo dito dahil kung ito ay sumobra may posibilidad na hindi ito lumaki o kaya mamatay ang iba nito.
+               \n \n Paalala : Kapag sumapit na ang buwan ng Abril at Mayo ay dapat munang hulihin ang ibang alaga o bawasan ang laman ng iyong plaisdaan dahil ang buwan ng abril at mayo ay panahon na nagkakamatay ang mga isda.
+               \n \n Pagkain : Jako, Sulib.
+               \n \n Ang Jako at sulib  ay pwedeng ipakain sabay sabay o kahit magkakahalo.Ang pagpapakain sa alimango ay tatlong beses lamang sa isang linggo kapag ito ay maliit pa.Kapag ito ay lumaki na ng dalawang buwan ay maaari na itong pakain araw araw.
+               \n \n Ilang araw ito aalagaan bago anihin?
+        \n Kapag sa Kawagan : 2 Linggo
+        \n Kapag sa Binhian : 1 buwan
+        \n Kapag sa Palakihan : 4 buwan
+        \n Gamit na gagamitin sa Panghuli : lambat o paktang
+    </string>
+    <string name="descVannameiTag">Ang Vannamei o mas kilala sa tawag na “White Leg Shrimp” ay isang uri ng dekapoda na kadalasan ding inaalagaan sa palaisdaan dahil ito ay nabubuhay sa tubig alat na may halong tubig tabang. Kumapara sa Sugpo wala itong “tiger stripes” na tinatawag at mas mura ang presyo nito sa sugpo pero mas malaki ang tyansa na lumakas ang ani dito kesa sa sugpo.
+               \n \n Sa 1 hektarya na sukat ng plaisdaan , hindi tataas ng 50,000 na bangus ang malalagay mo dito dahil kung ito ay sumobra may posibilidad na hindi ito lumaki o kaya mamatay ang iba nito.
+               \n \n Paalala : Kapag sumapit na ang buwan ng Abril at Mayo ay dapat munang hulihin ang ibang alaga o bawasan ang laman ng iyong plaisdaan dahil ang buwan ng abril at mayo ay panahon na nagkakamatay ang mga isda.
+               \n \n Pagkain : sulib at Jako.
+               \n \n Ang Jako at sulib  ay pwedeng ipakain sabay sabay o kahit magkakahalo.Ang pagpapakain sa alimango ay tatlong beses lamang sa isang linggo kapag ito ay maliit pa.Kapag ito ay lumaki na ng dalawang buwan ay maaari na itong pakain araw araw.
+               \n \n Ilang araw ito aalagaan bago anihin?
+               \n Kapag sa Binhian : 1 buwan
+               \n Kapag sa Palakihan : 4 buwan
+               \n Gamit na gagamitin sa Panghuli : lambat o dala
+    </string>
+    <string name="descFeedsTag">Ang Feeds ay isa sa pangunahing pagkain ng isda sa plaisdaan. Ang feeds ay gawa sa pinaghalo halong sangkap na may nutrients na makakatulong magpalaki ng isda. Ang Feeds ay mas mahal ang presyo kung ikukumpara mo sa ibang pakain ng isda subalit mas malakas at mas maganda naman ang epekto nito sa isda.
+    \n \n Ang pagpapakain ng feeds ay may pinipiling isda upang hindi masayang ang mga ito dahil hindi lahat ng isda sa plaisdaan ay pwede mong pakainin ng feeds.
+    \n \n Uri ng isda sa plaisdaan na maaring pakainin ng Feeds :
+    \n  Bangus
+    \n Apahap
+    \n Pla-pla
+    </string>
+    <string name="descNoodlesTag">Ang Noodles ay isa sa pangunahing pagkain ng isda sa plaisdaan. Ang noodles ay gawa sa pinaghalo halong sangkap na may nutrients na makakatulong magpalaki ng isda. Ang Noodles ay mas mura ang presyo kung ikukumpara mo sa ibang pakain ng isda subalit mas malakas at mas maganda naman ang epekto nito sa isda kapag ang isda ay maliit pa.
+    \n \n Ang pagpapakain ng noodles ay may pinipiling isda upang hindi masayang ang mga ito dahil hindi lahat ng isda sa plaisdaan ay pwede mong pakainin ng noodles.
+    \n \n Uri ng isda sa plaisdaan na maaring pakainin ng Noodles :
+    \n  Bangus
+    \n Apahap
+    \n Pla-pla
+    </string>
+    <string name="descJakoTag">
+        Ang Jako ay isa sa pangunahing pagkain ng isda sa plaisdaan lalong lalo na sa alimango. Ang jako ay gawa sa mga maliliit na isda na makakatulong magpalaki ng isda. Ang Jako ay mas mahal ang presyo kung ikukumpara mo sa noodles at waffer dahil mas malakas at mas maganda naman ang epekto nito sa isda.
+        \n \n Ang pagpapakain ng Jako ay may pinipiling isda upang hindi masayang ang mga ito dahil hindi lahat ng isda sa plaisdaan ay pwede mong pakainin ng jako.
+        \n \n Uri ng isda sa plaisdaan na maaring pakainin ng Jako :
+        \n  Alimango
+        \n Sugpo
+        \n Vannamei
+        \n Talangka
+    </string>
+    <string name="descSulibTag">
+        Ang Sulib ay isa sa pangunahing pagkain ng isda sa plaisdaan lalong lalo na sa sugpo. Ang sulib ay gawa sa maliliit na suso na nakukuha sa dagat  na makakatulong magpalaki ng isda. Ang sulib ay may mas mahal ang presyo kung ikukumpara mo sa sulib, waffer at noodles dahil mahirap itong makuha sa dagat.
+        \n \n Ang pagpapakain ng sulib ay may pinipiling isda upang hindi masayang ang mga ito dahil hindi lahat ng isda sa plaisdaan ay pwede mong pakainin ng sulib.
+        \n \n Uri ng isda sa plaisdaan na maaring pakainin ng Sulib :
+        \n  Alimango
+        \n Sugpo
+        \n Vannamei
+        \n Talangka
+    </string>
+    <string name="descWafferTag"> Ang Wafer ay isa sa pangunahing pagkain ng isda sa plaisdaan lalo sa Binhing isda. Ang waffer ay gawa sa Maninipis na tinapay na mabilis matunaw na makakatulong magpalaki ng isda. Ang Waffer ay  mahal ang presyo kung ikukumpara mo sa noodles dahil mas malakas at mas maganda naman ang epekto nito sa isda.  \n \n
+        \n \n Ang pagpapakain ng waffer ay may pinipiling isda upang hindi masayang ang mga ito dahil hindi lahat ng isda sa plaisdaan ay pwede mong pakainin ng waffer.
+        \n \n Uri ng isda sa plaisdaan na maaring pakainin ng Waffer :
+        \n  Bangus
+        \n Apahap
+        </string>
+    <string name="descBinhianTag">Ang Binhian o tinatawag sa ingles na Nursery care ay isang uri ng pag aalaga ng isda sa plaisdaan kung saan dito nilalagay ang mga isda na galing sa Kawagan (Hatchery care) upang Palakihin hanggang sa umabot ng 5 inches ang sukat para mailipat na ito sa Palakihan (Growout care). \n \n
+        \n \n Sa binhian, Maari kang mag-alaga ng kahit anong isda dito ngunit isang klase lamang ng isda ang pwede mong alagaan sa plaisdaan dahil bawal ito magkahalo kasi bawat sukat ng plaisdaan ay may angkop na bilang ng isda
+        \n \n Uri ng isda at tamang bilang na naayon sa 1 hektaryang sukat ng plaisdaan:
+        \n  Bangus = 300,000 pcs
+        \n Sugpo = 2,500,000 pcs
+        \n Pla-pla = 2,500,000 pcs
+        \n Talangka = 5,000,000 pcs
+        \n Vannamei = 2,500,000 pcs
+        \n Alimango = 300,000 pcs
+        \n Apahap = 500,000 pcs
+        \n \n Kapag ang isda na galing sa binhian ay umabot na sa tamang sukat ng kanyang laki, ito ay ililipat na sa palakihan upang mas palakihin pa lalo at para na rin lumuwag na ang laman na isda sa kawagan.
+        \n \n Gayumpaman, ang Kawagan ay may limitadong araw ng pag aalaga upang maiwasan ang pagkamatay ng isda dahil sa masikip na espasyo. Ang pagbibinhi ng isda ay isang buwan hanggang isang buwan at isang linggo lang ang pag aalaga dahil sa limitado ang espasyo ng plaisdaan.
+    </string>
+    <string name="descKawaganTag">Ang Kawagan o tinatawag sa ingles na Hatchery care ay isang uri ng pag aalaga ng isda sa plaisdaan kung saan dito nilalagay ang mga bagong silang na isda at pinapaporma o pinapalaki ito dito ng hanggang 3 centimeter ang laki.
+        \n \n Sa kawagan, Maari kang mag-alaga ng kahit anong isda dito ngunit isang klase lamang ng isda ang pwede mong alagaan sa plaisdaan dahil bawal ito magkahalo kasi bawat sukat ng plaisdaan ay may angkop na bilang ng isda
+        \n \n Uri ng isda at tamang bilang na naayon sa 1 hektaryang sukat ng plaisdaan:
+        \n  Bangus = 480,000 pcs
+        \n Sugpo = 4,000,000 pcs
+        \n Pla-pla = 4,000,000 pcs
+        \n  Talangka = 8,000,000 pcs
+        \n Vannamei = 4,000,000 pcs
+        \n Alimango = 480,000 pcs
+        \n Apahap = 800,000 pcs
+        \n \n Kapag ang isda na galing sa kawagan ay umabot na sa tamang sukat ng kanyang laki, ito ay ililipat na sa binhian upang mas palakihin pa lalo at para na rin lumuwag na ang laman na isda sa kawagan.
+        \n \n Gayumpaman, ang Kawagan ay may limitadong araw ng pag aalaga upang maiwasan ang pagkamatay ng isda dahil sa masikip na espasyo. Ang pagkakawag ng isda ay dalawa hanggang tatlong linggo lang ang pag aalaga dahil sa limitado ang espasyo n
+
+    </string>
+    <string name="descPalakihanTag">Ang Palakihan o tinatawag sa ingles na Growout care  ay isang uri ng pag aalaga ng isda sa plaisdaan kung saan dito nilalagay ang mga isdang galing sa binhian at aalagaan ito ng 4 na buwan bago anihin.
+    \n \n Sa Palakihan, Maari kang mag-alaga ng kahit anong isda dito ngunit hanggang dalawang klase lamang ng isda ang pwede mong alagaan sa plaisdaan dahil bawal ito magkahalo kasi bawat sukat ng plaisdaan ay may angkop na bilang ng isda
+    \n \n Uri ng isda at tamang bilang na naayon sa 1 hektaryang sukat ng plaisdaan:
+    \n  Bangus = 6,000 pcs
+    \n Sugpo = 50,000 pcs
+    \n Pla-pla = 50,000 pcs
+    \n Talangka = 100,000 pcs
+    \n Vannamei = 50,000 pcs
+    \n Alimango = 6,000 pcs
+    \n Apahap = 10,000 pcs
+    \n \n Kapag ang isda na galing sa palakihan ay umabot na sa tamang sukat ng kanyang laki, ito ay dapat ng bawasan upang mas palakihin pa lalo at para na rin lumuwag na ang laman na isda sa palakihan.
+    \n \n Gayumpaman, ang Palakihan ay may limitadong araw ng pag aalaga upang maiwasan ang pagkamatay ng isda dahil sa masikip na espasyo. Ang Palakihan ng isda ay apat hanggang limang buwan lang ang pag aalaga dahil sa limitado ang espasyo ng plaisdaan.
+    </string>
+    <string name="descBintolTag"> Ang Pagharvest ng isda Gamit ang Bintol ay isa sa pinaka mabisa at pangunahing gamit ng mga mangingisda upang mahuli ang alimango sa plaisdaan dahil mabilis ito makahuli at higit sa lahat madali lang ang proseso nang pagbibintol kung ikukumpara mo sa iba.
+    \n \n Ang Bintol ay gawa sa kahoy na mag ka ekis at pinalibutan ng lambat kung saan ito ay ihahagis sa plaisdaan at makailang oras lang ay pwede muna itong iangat para mahuli ang alimango.
+    </string>
+    <string name="descDalaTag">Ang Pagharvest ng isda Gamit ang Dala ay isa sa pinaka mabisa at pangunahing gamit ng mga mangingisda sa plaisdaan dahil mabilis ito makahuli ng isda ngunit ginagamit lang ito kapag gusto mong bawasan lang ng konti ang isda sa plaisdaan sa kadahilanang konti lang ito humuli kung ikukumpara mo sa pag-lambat.
+    \n \n Ang Dala ay gawa sa lambat na mahaba na may lapad na 2 dipa at taas na 3 metro at may mahabang tali sa dulo at may pabato naman sa kabilang dulo.
+    </string>
+    <string name="descLambatTag">Ang Pagharvest ng isda Gamit ang Lambat ay isa sa pinaka mabisa at pangunahing gamit ng mga mangingisda sa plaisdaan dahil mabilis ito makahuli ng isda at higit sa lahat maraming isda ang kasya dito kung ikukumpara mo sa ibang gamit.
+    \n \n Ang Lambat ay gawa sa plastic na sinulid na matibay na maybutas butas upang tumagos sa tubig at may pabigat na bakal sa ibabang parte nito upang hindi umangat ang lambat.
+    </string>
+    <string name="descPaktangTag">
+        Ang Pagharvest ng isda Gamit ang Paktang ay isa sa pinaka mabisa at pangunahing gamit ng mga mangingisda sa plaisdaan ngunit ang pag gamit ng paktang sa plaisdaan may pinipiling oras o kadalasan tuwing gabi mo lang ito pwedeng gamitin dahil sa gabi kadalasan lumiliit ang tubig sa plaisdaan.
+    \n \n Ang Paktang ay gawa sa screen na bakal at ito ay hugis kwadrado at may pinto kung saan sa pinto ng paktang papasok ang isda upang mahuli dahil hindi na ito makakalabas sa oras na pumasok ito.
+    </string>
+    <string name="descPantiTag">Ang Pagharvest ng isda Gamit ang panti ay isa rin sa pinaka mabisa at pangunahing gamit ng mga mangingisda sa plaisdaan dahil mabilis ito makahuli ng isda ngunit ang pagharvest gamit ang panti ay matrabaho dahil iisa-isahin mopang kunin ang isda kapag ito ay nahuli sa panti.
+    \n \n Ang Panti ay gawa sa plastic na sinulid na kulay puti na matibay na may malalaking butas upang tumagos sa tubig at may malalaking pabigat na bakal sa ibabang parte nito upang umabot ang lambat sa kinailaliman ng tubig na hindi umaangat.
+    </string>
+
+
+    <string name="sampText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum......</string>
+    <string name="sampText2">It is common practice for freshwater aquarium hobbyists to add bottom feeders and algae eaters like corydoras catfish and plecostomus to their tanks to help control algae build-up. Not only will these fish help to control excess algae but they may also act as scavengers, helping to eat accumulated fish food and other organic waste that could have a negative effect on the water quality in your tank. Depending on the size of your tank and the number of tank inhabitants, however, natural algae growths and leftover fish food may not be enough to meet the nutritional needs of your bottom feeders. ......</string>
+    <string name="sampText3">Land is needed for building fish or shrimp ponds, whereas fish cages, pens, and mussel and seaweed farms occupy space in lakes and the sea. Globally, fish ponds are usually sited in agricultural land and this arguably contributes to landscape and floral and faunal diversity. In Europe, however, unproductive, boggy areas of agricultural land have often been used, and since such boundary ecosystems, or ecotones, may serve as reserves for species in areas otherwise surrounded by monocultures of crops, this may reduce biodiversity. </string>
+    <string name="title_activity_watch_lambat">watchLambat</string>
+
+
+    <string name="track_selection_title">Video Quality</string>
+    <string name="exo_track_selection_title_video">Video Quality</string>
+    <string name="exo_track_selection_title_audio">Video Quality</string>
+    <string name="exo_track_selection_title_text">Video Quality</string>
+    <string name="slashTitle">Harvest Up</string>
+    <string name="splashDesc">A Knowledgeable Agri-Fishery Android App for improving the caring and harvesting of the Fishpond</string>
+    <string name="langEN">English</string>
+    <string name="langFIL">Filipino</string>
+</resources>

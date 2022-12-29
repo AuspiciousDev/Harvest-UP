@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgPlaylistItemBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:maxHeight="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/holdingfish2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/cardImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#90152242"
+            android:backgroundTintMode="src_over"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+
+                style="@style/roundedBottomCard"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:backgroundTint="@color/secondary_100">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/menuHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fish Information"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen20">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <GridLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="50dp"
+                        android:columnCount="1"
+                        android:rowCount="3"
+                        android:useDefaultMargins="true">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card_fTypes"
+                            android:layout_width="100dp"
+                            android:layout_height="125dp"
+                            android:layout_columnWeight="1"
+                            android:backgroundTint="@color/black"
+                            app:cardCornerRadius="20dp">
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:alpha="0.7"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/types" />
+
+                            <TextView
+                                style="@style/smallMainMenuTextTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="types" />
+                            >
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card_fFoods"
+                            android:layout_width="100dp"
+                            android:layout_height="125dp"
+                            android:layout_columnWeight="1"
+                            android:backgroundTint="@color/black"
+                            app:cardCornerRadius="20dp">
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:alpha="0.7"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/feeding" />
+
+                            <TextView
+                                style="@style/smallMainMenuTextTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Food" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card_fCare"
+                            android:layout_width="100dp"
+                            android:layout_height="125dp"
+                            android:layout_columnWeight="1"
+                            android:backgroundTint="@color/black"
+                            app:cardCornerRadius="20dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:alpha="0.7"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/caring" />
+
+                            <TextView
+                                style="@style/smallMainMenuTextTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="care" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card_fHarvest"
+                            android:layout_width="100dp"
+                            android:layout_height="125dp"
+                            android:layout_columnWeight="1"
+                            android:backgroundTint="@color/black"
+                            app:cardCornerRadius="20dp">
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:alpha="0.7"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/harvesting" />
+
+                            <TextView
+                                style="@style/smallMainMenuTextTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="harvest" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </GridLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

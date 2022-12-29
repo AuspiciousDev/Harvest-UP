@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomCardViewStyle" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay_card_custom_corners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">40dp</item>
+        <item name="cornerSizeTopLeft">40dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="RoundedRightEdges" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners1
+        </item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay_card_custom_corners1" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">20dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">20dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+
+    <style name="roundedBottomCard" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/roundedBottomCard.rounded</item>
+    </style>
+
+    <style name="roundedBottomCard.rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">50dp</item>
+        <item name="cornerSizeBottomLeft">50dp</item>
+    </style>
+
+    <style name="roundedTopCard" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/roundedTop.rounded</item>
+    </style>
+
+    <style name="roundedTop.rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">50dp</item>
+        <item name="cornerSizeTopLeft">50dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="roundedLeftCard" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/roundedLeft.rounded</item>
+    </style>
+
+    <style name="roundedLeft.rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">10dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">10dp</item>
+    </style>
+
+    <style name="Widget.Theme.HarvestUp.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.HarvestUp.ButtonBar.Fullscreen" parent="">
+
+    </style>
+
+    <style name="smallMainMenuTextTitle">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="smallMenuTextTitle">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">33sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="menuHeader">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="mainMenuTitle">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="detailsHeader">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/secondary</item>
+        <item name="android:textSize">38sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="detailsDescription">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="detailsDescriptionWhite">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="subMenuTextTitle">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="detailsSubMenuDescriptionWhite">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:layout_marginTop">-10dp</item>
+        <item name="android:paddingRight">@dimen/dimen20</item>
+    </style>
+
+    <style name="viewDetailsText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="viewDetailsName">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/secondary</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:alpha">0.8</item>
+        <item name="android:layout_marginTop">-5dp</item>
+
+    </style>
+</resources>

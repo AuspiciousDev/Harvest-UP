@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="20dp">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/imageSlider"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_alignTop="@+id/card"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="2500"
+            app:iss_placeholder="@drawable/bangus" />
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_below="@+id/cardImage"
+        android:id="@+id/card"
+        style="@style/roundedTopCard"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/white">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dimen10"
+                android:layout_marginRight="@dimen/dimen10"
+                android:elevation="@dimen/dimen10"
+                app:cardCornerRadius="@dimen/dimen50">
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/detailsHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen50"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/dimen10"
+                    android:text="@string/title_Lambat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="@dimen/dimen5"
+                app:cardCornerRadius="@dimen/dimen10">
+
+                <CheckBox
+                    android:id="@+id/langSwitch"
+                    android:layout_width="@dimen/dimen100"
+                    android:layout_height="@dimen/dimen30"
+
+                    android:background="@drawable/lang_switch_background"
+                    android:button="@drawable/lang_switch_background"
+                    android:text="@string/langEN"
+                    android:textAlignment="center" />
+            </androidx.cardview.widget.CardView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/textDesc"
+                        style="@style/detailsDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="@string/descLambatEng" />
+
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/playButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:text="Watch Video"
+                        app:icon="@drawable/exo_controls_play"
+                        app:iconGravity="textStart"
+                        />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</RelativeLayout>
